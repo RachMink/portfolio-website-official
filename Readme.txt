@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Rachel's Portfolio Website! 
 
-Template Name: MyResume
-Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Thanks for visiting :)
+
+checkout the site here : https://rachmink.github.io/portfolio-website-official/
