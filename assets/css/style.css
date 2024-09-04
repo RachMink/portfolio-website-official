@@ -806,8 +806,8 @@ section {
   padding: 0;
 }
 
-.portfolio-details .portfolio-description .rounded-pill{
-  padding: 6px;
+.rounded-pill{
+  padding: 8px;
   margin-bottom: 6px;
   display: inline-flex;
   color:#bb055a;
@@ -1021,3 +1021,95 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.portfolio-card {
+    width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Adjust as needed */
+}
+
+.card {
+  flex: 1 1 300px;
+  margin-bottom: 20px;  
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin: 15px 0 10px;
+}
+
+.project-date {
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 1em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .portfolio-card {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-card {
+    flex-basis: 100%;
+  }
+}
+
+.card-body {
+  padding: 20px;
+  
+}
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-subtitle {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
